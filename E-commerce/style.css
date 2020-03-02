@@ -1,0 +1,53 @@
+/* Minimal CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*header*/
+header{
+  background: black;
+  background-image: url(../images/headerbackground.jpg);
+  background-size: 100%;
+  background-position: bottom;
+  color:red;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+}
+header a{
+  color: white;
+  text-decoration: none;
+}
+header a:hover{
+  text-decoration: underline;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+nav li{
+  display: inline-block;
+  margin-right: 20px;
+}
